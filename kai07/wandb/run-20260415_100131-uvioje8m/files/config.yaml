@@ -1,0 +1,139 @@
+_wandb:
+    value:
+        cli_version: 0.19.11
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 1
+                - 11
+                - 12
+                - 41
+                - 45
+                - 49
+                - 51
+                - 55
+            "2":
+                - 1
+                - 11
+                - 12
+                - 41
+                - 45
+                - 49
+                - 51
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+                - 61
+            "4": 3.11.11
+            "5": 0.19.11
+            "6": 4.53.2
+            "8":
+                - 5
+            "12": 0.19.11
+            "13": linux-x86_64
+advantage_estimator:
+    value: false
+assets_base_dir:
+    value: ./assets
+batch_size:
+    value: 32
+checkpoint_base_dir:
+    value: ../checkpoints
+data:
+    value:
+        action_sequence_keys:
+            - action
+        assets:
+            asset_id: null
+            assets_dir: null
+        base_config: null
+        default_prompt: Reset and muss up the cloth
+        episodes: null
+        insert_advantage_into_prompt: false
+        mask_state: false
+        repack_transforms:
+            inputs:
+                - structure:
+                    actions: action
+                    images:
+                        hand_left: observation.images.left
+                        hand_right: observation.images.right
+                        top_head: observation.images.head
+                    state: observation.state
+            outputs: []
+        repo_id: /mnt/data/yzj_data/dataset/20260414_1433_yzj_resetnew65_merge_202604141433
+        use_delta_joint_actions: false
+drop_last:
+    value: true
+ema_decay:
+    value: 0.99
+exp_name:
+    value: 20260414_1433_yzj_resetnew65_merge_202604141433
+freeze_filter:
+    value: Nothing()
+fsdp_devices:
+    value: 1
+is_train:
+    value: true
+keep_period:
+    value: 5000
+log_interval:
+    value: 100
+lr_schedule:
+    value:
+        decay_lr: 2.5e-06
+        decay_steps: 30000
+        peak_lr: 2.5e-05
+        warmup_steps: 1000
+model:
+    value:
+        action_dim: 32
+        action_expert_variant: gemma_300m
+        action_horizon: 50
+        discrete_state_input: true
+        dtype: bfloat16
+        max_token_len: 200
+        paligemma_variant: gemma_2b
+        pi05: true
+name:
+    value: pi05_flatten_fold_normal
+num_train_steps:
+    value: 80100
+num_workers:
+    value: 8
+optimizer:
+    value:
+        b1: 0.9
+        b2: 0.95
+        clip_gradient_norm: 1
+        eps: 1e-08
+        weight_decay: 1e-10
+overwrite:
+    value: false
+policy_metadata:
+    value: null
+project_name:
+    value: openpi
+pytorch_training_precision:
+    value: bfloat16
+pytorch_weight_path:
+    value: null
+resume:
+    value: false
+save_interval:
+    value: 10000
+seed:
+    value: 42
+skip_norm_stats:
+    value: false
+split:
+    value: all
+wandb_enabled:
+    value: true
+weight_loader:
+    value:
+        params_path: /mnt/data/hzy_data/home_cache/pi05_base/params

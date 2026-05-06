@@ -1,0 +1,64 @@
+{
+  "os": "Linux-5.10.134-013.5.kangaroo.al8.x86_64-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.11",
+  "startedAt": "2026-04-09T09:50:12.980404Z",
+  "args": [
+    "pi05_flatten_fold_normal",
+    "--exp_name=20260409_0935_yzj_reset136_merge_202604091252",
+    "--save_interval",
+    "10000",
+    "--num_train_steps",
+    "80100"
+  ],
+  "program": "/mnt/data/yzj_data/kai0_train/kai0/scripts/train.py",
+  "codePath": "scripts/train.py",
+  "git": {
+    "remote": "https://github.com/OpenDriveLab/kai0.git",
+    "commit": "9d93078c757840f50e75248c5c5a94ab7b41e13a"
+  },
+  "email": "woan13@switch-bot.com",
+  "root": "/mnt/data/yzj_data/kai0_train/kai0",
+  "host": "dsw-740541-79c99c9757-ljlpz",
+  "executable": "/root/env/uv_kai0_env/bin/python",
+  "codePathLocal": "scripts/train.py",
+  "cpu_count": 24,
+  "cpu_count_logical": 24,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "1268187443200",
+      "used": "637087744"
+    }
+  },
+  "memory": {
+    "total": "429496729600"
+  },
+  "cpu": {
+    "count": 24,
+    "countLogical": 24
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

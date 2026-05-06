@@ -1,0 +1,85 @@
+{
+  "os": "Linux-5.10.134-013.5.kangaroo.al8.x86_64-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.11",
+  "startedAt": "2026-04-01T15:33:02.895335Z",
+  "args": [
+    "pi05_flatten_fold_normal",
+    "--exp_name=pi05_flatten_fold_normal_data207_dagger305_merge_202604012142",
+    "--save_interval",
+    "10000",
+    "--num_train_steps",
+    "80000",
+    "--resume"
+  ],
+  "program": "/mnt/data/gyt_data/kai0_project_train/kai0/scripts/train.py",
+  "codePath": "scripts/train.py",
+  "git": {
+    "remote": "https://github.com/OpenDriveLab/kai0.git",
+    "commit": "9d93078c757840f50e75248c5c5a94ab7b41e13a"
+  },
+  "email": "woan13@switch-bot.com",
+  "root": "/mnt/data/gyt_data/kai0_project_train/kai0",
+  "host": "dsw-726298-6c5c45bf69-lnhkf",
+  "executable": "/root/env/uv_kai0_env/bin/python",
+  "codePathLocal": "scripts/train.py",
+  "cpu_count": 96,
+  "cpu_count_logical": 96,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "4601901752320",
+      "used": "1760894976"
+    }
+  },
+  "memory": {
+    "total": "1717986918400"
+  },
+  "cpu": {
+    "count": 96,
+    "countLogical": 96
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-SXM4-80GB",
+      "memoryTotal": "85198045184",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}
